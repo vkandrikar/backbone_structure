@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<!--
+	no-js : use to detect whether browser support javascript or not
+-->
+<html class='no-js'>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        	Forces the browser to render as that particular version's standards.
+        	IE=Edge : It forces the browser the render at whatever the most recent version's standards are
+        -->
+        <meta http-equiv="X-UA-Compatible" content="IE-9, chrome=1">
+        <!--
+        	the key to preparing a page for mobile devices optimization	
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="This is just Backbone Template">
+        <meta name="keywords" content="HTML, JS, Backbone, Vijay, Kandrikar">
+        <meta name="author" content="Vijay Kandrikar">
+        <meta name="copyright" content="@mtvijay_12@yahoo.com">
+        <title>Backbone Template</title>
+        
+        <!--
+            main.css; Contains all stylesheets links.
+        -->
+        <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    </head>
+    
+    <body>
+    	<!--[if lt IE 9]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="applicationCont"></div>
+
+        <!-- Included modernizr for HTML5 Browser support detection. -->
+        <script src="js/vendors/modernizr/modernizr.custom.js" type="text/javascript"></script>
+        <!-- 
+        	Placed at the end of the document so the pages would load faster 
+            data-main attribute tells require.js to load "scripts/main.js" after require.js loads.
+        -->
+        <script data-main="js/main" src="js/vendors/require/require.js" type="text/javascript"></script>
+	</body>
+</html>
