@@ -12,11 +12,11 @@ define( ['jquery', 'backbone', 'core', 'events', 'template!templates/layout', 'g
 				/* ==========================================================================
 				GLOBAL AJAX SETUP
 				========================================================================== */
-				$.ajaxSetup({
+				/*$.ajaxSetup({
 					async: false,
 					type: "POST",
 					contentType: "json; charset=utf-8"
-				});
+				});*/
 			}, //end of initialize funt
 			
 			pageChanged:function (argument) {
