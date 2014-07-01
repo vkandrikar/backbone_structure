@@ -12,7 +12,8 @@
 	width: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
-	clear: both; /* or overflow: auto*/
+	clear: both; /*height of container 0px*/  
+	overflow: auto /*height of container will be auto*/
 }
 
 nav ul li {
