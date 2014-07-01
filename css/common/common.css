@@ -3,9 +3,16 @@
 	padding: 0;
 }
 
-#applicationCont, #layoutHeader, #pageCont, #backdrop, #layoutFooter {
+#layoutHeader, #pageCont, #backdrop, #layoutFooter {
 	float: left;
 	width: 100%;
+}
+
+#applicationCont {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	clear: both; /* or overflow: auto*/
 }
 
 nav ul li {
