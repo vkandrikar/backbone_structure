@@ -6,6 +6,7 @@ define( ['backbone', 'template!templates/page1/page', 'events', 'css!../../../cs
 			el: "#pageCont",
 		
 			events: {
+				"click #test": "fnClickMe"
 			}, //end of events
 			
 			initialize: function () {				
@@ -13,7 +14,11 @@ define( ['backbone', 'template!templates/page1/page', 'events', 'css!../../../cs
 				this.count = 0;
 				this.testInterval;				
 			}, //end of initialize funt
-						
+				
+			fnClickMe: function (evt) {
+				alert("fnClickMe");
+			},	
+
 			doSomething: function () {				
 				var self = this;						
 										
